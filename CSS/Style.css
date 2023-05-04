@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    height: 540px;
+}
+
+.main-left{
+    flex-basis: 56%;
+    padding: 60px 60px 0px 80px;
+}
+
+.main-right{
+    flex-basis: 44%;
+}
+
+.main-right img{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+nav img{
+    width: 200px;
+}
+
+.log-sign a{
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 12px 28px;
+    cursor: pointer;
+}
+
+.login{
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+.login:hover{
+    color: #f75f07;
+}
+
+.log-sign a:last-child{
+    background-color: #000;
+    color: #fff;
+}
+
+.main-content h1{
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.main-content p{
+    font-size: 23px;
+    color: #5c5c5c;
+    margin-bottom: 45px;
+}
+
+.order-food{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+}
+
+.order-food input{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px;
+    border: none;
+    outline: none;
+    color: #000;
+}
+
+.locate-me{
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 10px;
+    color: rgb(65, 65, 65);
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.locate-me:hover{
+    background-color: rgb(204, 201, 201);
+    padding: 10px 5px;
+}
+
+.locate-me .far{
+    color: rgb(65, 65, 65);
+    margin-right: 2px;
+}
+
+.find-food{
+    text-decoration: none;
+    background-color: #f75f07;
+    padding: 21px 25px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.title p{
+    font-size: 14px;
+    color: rgb(136, 135, 135);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.cities{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cities p{
+    margin-right: 7px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.cities .odd{
+    color: #4b4b4b;
+}
+
+.cities .even{
+    color: rgb(124, 123, 123);
+}
+
+
+
+/* ------------- Order Icons -------------- */
+
+.order-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(29, 3, 3, 0.808);
+    padding-bottom: 80px;
+    color: #fff;
+    text-align: center;
+}
+
+.order-icons img{
+    width: 110px;
+    margin-bottom: 40px;
+}
+
+.order-icons h2{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.order-icons p{
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+.min-order{
+    flex-basis: 20%;
+}
+
+.order-tracking{
+    flex-basis: 20%;
+}
+
+.fast-delivery{
+    flex-basis: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.app{
+    display: flex;
+}
+
+.left-app{
+    flex-basis: 45%;
+    margin: 150px 30px 0 10px;
+    padding: 0 60px;
+}
+
+.left-app h1{
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+.left-app p{
+    font-size: 20px;
+    color: rgb(109, 108, 108);
+    margin-bottom: 50px;
+}
+
+.app-img{
+    display: flex;
+}
+
+.app-img img{
+    width: 185px;
+    margin-right: 20px;
+}
+
+.right-app{
+    display: flex;
+    flex-basis: 55%;
+    margin-right: 30px;
+}
+
+.right-app img{
+    width: 390px;
+}
+
+.right-app img:first-child{
+    height: 490px;
+}
+
+.right-app img:last-child{
+    padding-top: 70px;
+    height: 550px;
+}
+
+
+
+
+
+
+/* ------------ About and Contact ------------- */
+
+.info{
+    background-color: #000;
+    color: #fff;
+    padding: 0 70px;
+}
+
+.about-contact{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.find-us img{
+    width: 200px;
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.about-contact .title{
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: rgb(75, 75, 75);
+    font-weight: 600;
+}
+
+.about-contact p{
+    margin-bottom: 15px;
+}
+
+.info hr{
+    height: 1px;
+    border: none;
+    background-color: rgb(75, 75, 75);
+}
+
+
+.deliver-to-cities{
+    padding-top: 50px;
+    width: 100%;
+}
+
+.deliver-to-cities .title p{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    margin-bottom: 40px;
+}
+
+.deliver-to-cities .cities{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.deliver-to-cities .cities p{
+    flex-basis: 21%;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ---------- Footer ------------ */
+
+.footer{
+    display: flex;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.footer .logo img{
+    width: 140px;
+}
+
+.copyright p{
+    font-size: 20px;
+}
+
+.social-icons img{
+    width: 25px;
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+/* -------------------- Sidebar Login ------------------------ */
+
+
+.sidebar-login, .sidebar-sign-up{
+    position: fixed;
+    width: 470px;
+    height: 100vh;
+    top: 0;
+    right: -470px;
+    background-color: #fff;
+    padding: 30px 60px 50px 40px;
+    transition: 1s ease;
+}
+
+.close .fas, .close-sign-up .fas{
+    font-size: 24px;
+    color: #000;
+}
+
+.login-text, .sign-up-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.login-text h2, .sign-up-text h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.login-text span, .sign-up-text span{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.login-text .change-color, .sign-up-text .change-color{
+    color: #f75f07;
+}
+
+.login-text p, .sign-up-text p{
+    font-weight: 600;
+}
+
+.login-text img, .sign-up-text img{
+    width: 110px;
+}
+
+.sidebar-login form{
+    width: 100%;
+    border: 1px solid #9e9d9d;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar-login form p{
+    font-size: 11px;
+    font-weight: 600;
+    color: #8d8c8c;
+    margin-bottom: 10px;
+}
+
+.sidebar-login form input{
+    width: 100%;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+}
+
+.login-btn input, .sign-up-btn input{
+    border-radius: 0;
+    width: 100%;
+    padding: 20px 0;
+    outline: 0;
+    border: 0;
+    background-color: #f75f07;
+    font-weight: 600;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'popppins', sans-serif;
+    cursor: pointer;
+}
+
+
+/* ------------- Sign up sidebar ---------------- */
+
+
+.sidebar-sign-up form{
+    width: 100%;
+    border: 1px solid #bbbaba;
+    margin-bottom: 25px;
+    margin-top: -20px;
+}
+
+.sidebar-sign-up form p{
+    font-size: 11px;
+    font-weight: 600;
+    color: #8d8c8c;
+    margin-bottom: 10px;
+}
+
+.sidebar-sign-up form input{
+    width: 100%;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+}
+
+.sidebar-sign-up form div{
+    border-bottom: 1px solid #bbbaba;
+    padding: 15px 20px;
+}
+
+.sidebar-sign-up form div:last-child{
+    border-bottom: none;
+}
+
+.sidebar-sign-up > p{
+    font-size: 15px;
+    color: #1215d6;
+    margin-bottom: 15px;
+}
+
+.sidebar-sign-up > span{
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #8d8c8c;
+}
+
+.sidebar-sign-up > span span{
+    color: #1215d6;
+}
+
+
+
+
+
+
